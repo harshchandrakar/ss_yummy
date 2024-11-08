@@ -1,0 +1,92 @@
+#banner{
+    background-image: url("../images/banner1.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: -7;
+}
+body{
+    padding-bottom: 2rem;
+}
+.navbar {
+    background-color: transparent !important; 
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    border: none;
+    padding: 0 10rem;
+}
+.navbar-brand{
+    font-size: 1.7rem;
+    color: rgba(255, 2, 2, 0.918);
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: gray;
+}
+.banner_mono{
+    position: absolute ;
+    bottom: 10rem;
+    margin-left: 3rem;
+    max-width: 25rem;
+    text-align: center;
+    color: white;
+}
+.btn-danger{
+    border-radius: 20px;
+}
+.menu{
+    text-align: center;
+    margin-top: 1rem;
+}
+.card{
+    width: 15rem;
+    flex-shrink: 0;
+}
+.card-body{
+    background:radial-gradient(circle, rgba(222, 167, 14, 0.651), rgb(255, 183, 1), rgb(254, 183, 2));
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px;
+    height: 22rem;
+    padding-top: 6rem;
+}
+.card-img-top{
+    position: absolute;
+}
+.dish{
+   text-align: left;
+}
+.card-details{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: center;
+}
+.card-details span{
+    color: black;
+    font-weight: 600;
+}
+.card-bottom{
+    margin-top: 1rem;
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+}
+.btn-cart,.btn-cart:hover{
+    background-color: rgba(238, 60, 5, 0.986);
+    color: white;
+}
+.menu-items{
+    display: flex;
+    gap: 1rem;
+    overflow:auto;
+    margin-top: 2rem;
+}
